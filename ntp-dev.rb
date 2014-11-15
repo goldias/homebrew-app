@@ -1,10 +1,10 @@
 require "formula"
 
 class NtpDev < Formula
-  url "http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-dev/ntp-dev-4.2.7p478.tar.gz"
-  version "4.2.7p478"
+  url "http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-dev/ntp-dev-4.2.7p479.tar.gz"
+  version "4.2.7p479"
   homepage "http://www.ntp.org/"
-  sha1 "0a3fc383b5d951403646b3f9a30ca827224883c8"
+  sha1 "5877a9b42b7e31b568651fc5bae3c41af9e10462"
 
   def install
     system "./configure", "--prefix=#{prefix}"
